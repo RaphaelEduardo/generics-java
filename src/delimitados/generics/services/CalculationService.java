@@ -1,4 +1,4 @@
-package delimitados.genericos.services;
+package delimitados.generics.services;
 
 import java.util.List;
 

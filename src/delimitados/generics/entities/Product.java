@@ -1,4 +1,4 @@
-package delimitados.genericos.entities;
+package delimitados.generics.entities;
 
 public class Product implements Comparable<Product> {
 

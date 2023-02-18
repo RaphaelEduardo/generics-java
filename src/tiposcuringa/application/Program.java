@@ -7,8 +7,8 @@ import java.util.List;
 public class Program {
 
 	public static void main(String[] args) {
-	
-		//demonstração de tipos curinga 
+
+		// demonstração de tipos curinga
 		List<?> x = new ArrayList<Object>();
 		List<Integer> y = new ArrayList<Integer>();
 		x = y;
@@ -16,9 +16,10 @@ public class Program {
 		List<Integer> z = Arrays.asList(28, 18, 8);
 		printList(z);
 	}
+
 	public static void printList(List<?> list) {
 		for (Object obj : list) {
-		System.out.println(obj);
+			System.out.println(obj);
 		}
-		}
+	}
 }

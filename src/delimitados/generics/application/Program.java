@@ -1,4 +1,4 @@
-package delimitados.genericos.application;
+package delimitados.generics.application;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import delimitados.genericos.entities.Product;
-import delimitados.genericos.services.CalculationService;
+import delimitados.generics.entities.Product;
+import delimitados.generics.services.CalculationService;
 
 public class Program {
 
