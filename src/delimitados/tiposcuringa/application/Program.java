@@ -33,6 +33,7 @@ public class Program {
 
 	// ? extends Shape (pode ser Shape ou qualquer subtipo de Shape...
 	public static double totalArea(List<? extends Shape> list) {
+		// Porém, não podemos adicionar nada na lista atraves desse metodo.
 		double sum = 0.0;
 		for (Shape s : list) {
 			sum += s.area();
