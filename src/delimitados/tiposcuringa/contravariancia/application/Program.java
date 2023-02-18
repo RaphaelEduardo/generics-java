@@ -7,19 +7,11 @@ public class Program {
 
 	/*
 	 * PRINCIPIO GET / PUT
+	 * Contravariância
 	 */
 
 	public static void main(String[] args) {
 		
-		List<Integer> intList = new ArrayList<Integer>();
-		intList.add(10);
-		intList.add(5);
-
-		List<? extends Number> list = intList;
-
-		// OK! (GET)
-		Number x = list.get(0);
-		// Erro de compilação! (PUT)
-		list.add(20);  
+ 
 	}
 }
